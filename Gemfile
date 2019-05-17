@@ -11,6 +11,10 @@ gem 'kaminari-mongoid'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
 # Rails Admin
 gem 'rails_admin', '~> 1.3'
+# Bootstrap
+gem 'bootstrap'
+# Jquery Rails
+gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
