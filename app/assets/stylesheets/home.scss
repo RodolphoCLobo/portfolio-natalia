@@ -1,3 +1,66 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: "Ostrich Black";
+  src: url('/assets/ostrich_black');
+}
+
+@font-face {
+  font-family: "Ostrich Bold";
+  src: url('/assets/ostrich_bold');
+}
+
+@font-face {
+  font-family: "Ostrich Dashed Medium";
+  src: url('/assets/ostrich_dashed_medium');
+}
+
+@font-face {
+  font-family: "Ostrich Heavy";
+  src: url('/assets/ostrich_heavy');
+}
+
+@font-face {
+  font-family: "Ostrich Light";
+  src: url('/assets/ostrich_light');
+}
+
+@font-face {
+  font-family: "Ostrich Medium";
+  src: url('/assets/ostrich_medium');
+}
+
+@font-face {
+  font-family: "Ostrich Regular";
+  src: url('/assets/ostrich_regular');
+}
+
+@font-face {
+  font-family: "Ostrich Rounded Medium";
+  src: url('/assets/ostrich_rounded_medium');
+}
+
+img{
+  padding-top: 3%;
+  max-height: 95vh;
+  width: 2000px;
+}
+nav {
+  ul {
+    li{
+      text-decoration: none;
+      font-family: 'Ostrich Regular';
+      font-size: 1.4rem;
+      a{
+        color: black;
+      }
+    }
+    .name {
+
+      font-size: 4rem;
+      letter-spacing: 3px;
+    }
+  }
+}
