@@ -10,6 +10,32 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3" style="padding: 0;">
+          <nav class="sidenav position-fixed" style="z-index: 2; background-color: white; width: 25%; height: 100%;">
+            <br><br>
+            <div class="container-fluid">
+              <ul style=" padding: 3%; list-style: none;">
+                <li><a href="#"><p>Natalia Conti</p></a></li>
+                <li>
+                  <p><b>Stylist</b></p>
+                  <ul style="list-style: none;">
+                    <li><a href="#"><p>Editorial</p></a></li>
+                    <li><a href="#"><p>Comercial</p></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><p>Executive Producer</p></a></li>
+                <li><a href="#"><p>Contact</p></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-9" style="padding: 0;">
+          <%= yield %>
+        </div>
+      </div>
+      <br><br>
+    </div>
   </body>
 </html>
